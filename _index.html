@@ -1,0 +1,27 @@
+<!doctype html>
+<script src="https://cdn.jsdelivr.net/npm/clooneyjs@0.6.0/clooney.bundle.min.js">
+</script>
+<script>
+	async function newWorkerFunc() {
+    const blob = await fetch(Clooney.defaultWorkerSrc).then(resp => resp.blob())
+    return new Worker(URL.createObjectURL(blob));
+  }
+  
+  async function init() {
+    const strategy = new Clooney.RoundRobinStrategy({newWorkerFunc});
+  
+    class Actor {
+      greet(name) {
+        return 'ohayo ' + name + '!!';
+      }
+    }
+    
+const workerList = [...Array(window.navigator.hardwareConcurrency)].map(() => strategy.spawn(Actor));
+
+    const result = await Promise.all(workerList);
+    const result2 = await Promise.all(result.map(w=> w.greet('test')));
+    console.log(result2);
+  }
+  init();
+
+</script>
