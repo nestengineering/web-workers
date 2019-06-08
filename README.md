@@ -26,7 +26,7 @@ How to improve the user experience of our apps? Web Worker could be a valid solu
 We have used Web Workers many times in a production environment, and we have analyzed which are the benefits and the costs. 
 In this talk, we will see how to use Web Workers effectively and how to go beyond the costs caused by the overhead and other issues.
 
-In the last section of this talk, we will give a look at a library that provides a simple way to implement Web Workers and hopefully giving you a better understanding of how Web Workers act on a web page.
+In the last section of this talk, we will give a look at a library that provides a simple way to implement Web Workers, hopefully giving you a better understanding of how Web Workers act on a web page.
 
 
 
