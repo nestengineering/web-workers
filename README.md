@@ -1,4 +1,4 @@
-タイトル　 Is multi-threading worth it in a web browser? / UXの改善のためにWebブラウザでマルチスレッドはいかがですか？  
+タイトル　 Is multi-threading worth it in a web browser for ux improvements? / UXの改善のためにWebブラウザでマルチスレッドはいかがですか？  
 概要  
 
 どうやったらWeb体験を良くできるか？そのために私たちができることはたくさんの選択肢があります。  
