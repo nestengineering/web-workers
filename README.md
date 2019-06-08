@@ -1,4 +1,4 @@
-タイトル　 Does multi-threading worth in a web browser? / Webブラウザでマルチスレッドはいかがですか？  
+タイトル　 Is multi-threading worth it in a web browser? / Webブラウザでマルチスレッドはいかがですか？  
 概要  
 
 どうやったらWeb体験を良くできるか？  
@@ -17,12 +17,16 @@ WebブラウザにマルチスレッドをもたらしたWeb Workerを
 
 //--------------------------------------------------------------
 
-Abstract
+Abstract 
 
-What are the advantages of using Web Worker?
-Let me tell you what I could achieve with it, and how it can 
-improve the final user experience.
-I have used Web Worker many times in production 
+Taking a look at the current technology scene, we can easily realize that more and more complex things can be done with the help of web technologies.
+However, complexity usually brings side effects such as a demand for more resources, which translates in most of the cases into a worse user experience. 
+
+How to improve the user experience of our apps? Web Worker could be a valid solution. 
+We have used Web Workers many times in a production environment, and we have analyzed which are the benefits and the costs. 
+In this talk, we will see how to use Web Workers effectively and how to go beyond the costs caused by the overhead and other issues.
+
+In the last section of this talk, we will give a look at a library that provides a simple way to implement Web Workers and hopefully giving you a better understanding of how Web Workers act on a web page.
 
 
 
