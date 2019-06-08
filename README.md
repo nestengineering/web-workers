@@ -1,5 +1,8 @@
-タイトル　 Is multi-threading worth it in a web browser for UX improvements? / UXの改善のためにWebブラウザでマルチスレッドはいかがですか？  
-概要  
+## タイトル  
+Is multi-threading worth it in a web browser for UX improvements? / UXの改善のためにWebブラウザでマルチスレッドはいかがですか？  
+
+
+## 概要  
 
 どうやったらWeb体験を良くできるか？そのために私たちができることはたくさんの選択肢があります。  
 製品やサービスの理解向上や、インターフェース改善、アクセシビリティの改善、そしてパフォーマンスの改善です。  
@@ -15,9 +18,9 @@ WebブラウザにマルチスレッドをもたらしたWeb Workerを複数の�
 
 この発表をきっかけにWeb Workerを身近にし、Web体験を良くするための選択肢として知ってもらえれば嬉しいです。  
 
-//--------------------------------------------------------------
+---
 
-Abstract 
+## Abstract 
 
 How to improve the user experience of our web apps? There are certainly many ways to do it, for example by working on the interface, the accessibility or the performance.
 However, we could assert without a doubt that a good performance on a web app is a good start to assure a superb user experience. 
