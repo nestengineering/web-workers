@@ -26,10 +26,10 @@ Web ブラウザにマルチスレッドをもたらした**Web Worker**を複�
 How to improve the user experience of our web apps? There are certainly many ways to do it, for example by working on the interface, the accessibility or the performance.
 
 However, we could assert without a doubt that a good performance on a web app is a good start to assure a superb user experience.
-To achieve the desired performance, we could work on several fronts, but in this talk, we will focus on Web Workers, a very interesting multi-threading solution.
+To achieve the desired performance, we could work on several fronts, but in this talk, we will focus on **Web Workers**, a very interesting multi-threading solution.
 
-We have used Web Workers many times in a production environment, and we have analyzed which are the benefits and the costs.
-In this talk, we will see how to use Web Workers effectively and how to go beyond the costs caused by the overhead and other issues, and finally
-we will take a look to at a library that provides a simple way to implement Web Workers.
+We have used **Web Workers** many times in a production environment, and we have analyzed which are the benefits and the costs.
+In this talk, we will see how to use **Web Workers** effectively and how to go beyond the costs caused by the overhead and other issues, and finally
+we will take a look at a library that provides a simple way to implement **Web Workers**.
 
-The aim of this talk is to get familiar with Web Workers, hopefully giving you you a better understanding of how Web Workers act on a web page.
+The aim of this talk is to get familiar with **Web Workers**, hopefully giving you you a better understanding of how **Web Workers** act on a web page.
