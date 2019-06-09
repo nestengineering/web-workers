@@ -32,4 +32,4 @@ We have used **Web Workers** many times in a production environment, and we have
 In this talk, we will see how to use **Web Workers** effectively and how to go beyond the costs caused by the overhead and other issues, and finally
 we will take a look at a library that provides a simple way to implement **Web Workers**.
 
-The aim of this talk is to get familiar with **Web Workers**, hopefully giving you you a better understanding of how **Web Workers** act on a web page.
+The aim of this talk is to get familiar with **Web Workers**, hopefully giving you a better understanding of how **Web Workers** act on a web page.
