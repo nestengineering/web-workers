@@ -30,6 +30,6 @@ To achieve the desired performance, we could work on several fronts, but in this
 
 We have used Web Workers many times in a production environment, and we have analyzed which are the benefits and the costs.
 In this talk, we will see how to use Web Workers effectively and how to go beyond the costs caused by the overhead and other issues, and finally
-we will take a look to at library that provides a simple way to implement Web Workers.
+we will take a look to at a library that provides a simple way to implement Web Workers.
 
-With this talk we will try to get familiar with Web Workers, hopefully giving you you a better understanding of how Web Workers act on a web page.
+The aim of this talk is to get familiar with Web Workers, hopefully giving you you a better understanding of how Web Workers act on a web page.
